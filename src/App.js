@@ -4,20 +4,20 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div class="boxFrame">
+        <h2>Hi, Saya Bintang Rizki Sulistyo!</h2>
+        <hr></hr>
+        <p>Saya dari Kelas XII</p>
+      </div>
+      <div class="biodata">
+        <h2>Data diri peserta kelas Reactjs</h2>
+        <hr></hr>
+        <ul>
+          <li><b>Nama Lengkap : </b> Bintang Rizki Sulistyo</li>
+          <li><b>Email :</b> bintangrzk08@gmail.com</li>
+          <li><b>Batch Pelatihan: </b> SMK TI BAZMA</li>
+        </ul>
+      </div>
     </div>
   );
 }
