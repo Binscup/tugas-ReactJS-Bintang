@@ -1,7 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 .App {
   padding: 15rem;
 }
-
 .boxFrame {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   padding: 30px;
@@ -13,7 +16,6 @@
   border-radius: 10px;
   margin-top: 40px;
 }
-
 .counter-container {
   text-align: center;
   margin-top: 50px;
@@ -30,9 +32,9 @@
   border-radius: 4px;
   cursor: pointer;
 }
-.counter-container > button:hover{
+.counter-container > button:hover {
   background-color: rgba(42, 165, 93, 0.288);
-  color:rgb(42, 165, 93) ;
+  color: rgb(42, 165, 93);
   transition: 0.4s;
 }
 .warning {
